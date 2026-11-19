@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou o Gabriel Miranda 👋</h1>
+<h1 align="center">Engenheiro de Software em formação 🧑‍💻</h1>
 <h3 align="center">Estudante de Engenharia de Software · Estagiário em QA na CRP Tecnologia · Palmas - TO</h3>
 
 <p align="center">
