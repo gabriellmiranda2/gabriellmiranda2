@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="340" viewBox="0 0 1280 340" role="img"><style>
+.m{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace} .s{font-family:Inter,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+@keyframes blink{50%{opacity:0}} .cur{animation:blink 1s steps(1) infinite}
+@keyframes pulse{50%{opacity:.3}} .pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+.ln{opacity:0;animation:in .35s ease-out forwards}
+@keyframes dash{to{stroke-dashoffset:-24}} .flow{animation:dash 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+</style><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F1C"/><stop offset="1" stop-color="#0E1A2B"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#152038"/></pattern>
+<radialGradient id="glow" cx="0.83" cy="0.5" r=".5"><stop offset="0" stop-color="#3DFFA2" stop-opacity=".16"/><stop offset="1" stop-color="#3DFFA2" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="340" rx="18" fill="url(#bg)"/>
+<rect width="1280" height="340" rx="18" fill="url(#grid)" opacity=".55"/>
+<rect width="1280" height="340" rx="18" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1279" height="339" rx="17.5" fill="none" stroke="#1F2A44"/><text x="72" y="92" class="m" font-size="17" fill="#3DFFA2">~/gabriel $ <tspan fill="#E6EDF3">npx playwright test</tspan> <tspan fill="#8B98B0">--project=carreira</tspan><tspan class="cur" fill="#3DFFA2"> ▍</tspan></text><text x="70" y="172" class="s" font-size="64" font-weight="800" fill="#E6EDF3" letter-spacing="-1.5">Gabriel Miranda</text><text x="72" y="214" class="m" font-size="20" fill="#8B98B0">Engenharia de Software <tspan fill="#55627A">/</tspan> <tspan fill="#5CE1FF">Quality Assurance</tspan> <tspan fill="#55627A">/</tspan> <tspan fill="#FFC857">Dados</tspan></text><rect x="72" y="248" width="318" height="36" rx="18" fill="#3DFFA2" fill-opacity=".08" stroke="#3DFFA2" stroke-opacity=".45"/><circle class="pulse" cx="92" cy="266" r="5" fill="#3DFFA2"/><text x="106" y="271" class="m" font-size="15" fill="#3DFFA2">estagiário QA @ CRP Tecnologia</text><rect x="402.0" y="248" width="129" height="36" rx="18" fill="#5CE1FF" fill-opacity=".08" stroke="#5CE1FF" stroke-opacity=".45"/><text x="417.0" y="271" class="m" font-size="15" fill="#5CE1FF">Palmas · TO</text><rect x="543.0" y="248" width="129" height="36" rx="18" fill="#A78BFA" fill-opacity=".08" stroke="#A78BFA" stroke-opacity=".45"/><text x="558.0" y="271" class="m" font-size="15" fill="#A78BFA">CEULP/ULBRA</text><g style="transform-origin:1062px 170px;animation:spin 24s linear infinite"><circle cx="1062" cy="170" r="112" fill="none" stroke="#3DFFA2" stroke-opacity=".35" stroke-width="2" stroke-dasharray="3 9"/></g><g style="transform-origin:1062px 170px;animation:spin 14s linear infinite reverse"><circle cx="1062" cy="170" r="88" fill="none" stroke="#5CE1FF" stroke-opacity=".4" stroke-width="2" stroke-dasharray="60 24 8 24"/></g><circle cx="1062" cy="162" r="46" fill="#3DFFA2" fill-opacity=".12" stroke="#3DFFA2" stroke-width="2"/><path d="M1042.68 162.92 l13.799999999999999 13.799999999999999 l25.3 -27.599999999999998" fill="none" stroke="#3DFFA2" stroke-width="6.44" stroke-linecap="round" stroke-linejoin="round"/><text x="1062" y="316" text-anchor="middle" class="m" font-size="13" fill="#3DFFA2" letter-spacing="2">ALL TESTS PASSED</text></svg>

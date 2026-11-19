@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="120" viewBox="0 0 1280 120" role="img"><style>
+.m{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace} .s{font-family:Inter,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+@keyframes blink{50%{opacity:0}} .cur{animation:blink 1s steps(1) infinite}
+@keyframes pulse{50%{opacity:.3}} .pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+.ln{opacity:0;animation:in .35s ease-out forwards}
+@keyframes dash{to{stroke-dashoffset:-24}} .flow{animation:dash 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+</style><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0A0F1C"/><stop offset="1" stop-color="#0E1A2B"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#152038"/></pattern>
+<radialGradient id="glow" cx="0.5" cy="0.5" r=".5"><stop offset="0" stop-color="#3DFFA2" stop-opacity=".16"/><stop offset="1" stop-color="#3DFFA2" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="120" rx="18" fill="url(#bg)"/>
+<rect width="1280" height="120" rx="18" fill="url(#grid)" opacity=".55"/>
+
+<rect x=".5" y=".5" width="1279" height="119" rx="17.5" fill="none" stroke="#1F2A44"/><text x="640.0" y="56" text-anchor="middle" class="m" font-size="16" fill="#8B98B0"><tspan fill="#3DFFA2">✓</tspan> obrigado pela visita <tspan fill="#55627A">—</tspan> <tspan fill="#E6EDF3">bugs encontrados aqui viram aprendizado</tspan></text><text x="640.0" y="86" text-anchor="middle" class="m" font-size="13" fill="#55627A">exit code 0 · Palmas, Tocantins · Brasil</text></svg>

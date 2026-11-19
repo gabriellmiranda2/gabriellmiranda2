@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="64" viewBox="0 0 310 64" role="img"><style>
+.m{font-family:'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'DejaVu Sans Mono',Menlo,monospace} .s{font-family:Inter,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+@keyframes blink{50%{opacity:0}} .cur{animation:blink 1s steps(1) infinite}
+@keyframes pulse{50%{opacity:.3}} .pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:none}}
+.ln{opacity:0;animation:in .35s ease-out forwards}
+@keyframes dash{to{stroke-dashoffset:-24}} .flow{animation:dash 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+</style><rect x="1" y="1" width="308" height="62" rx="14" fill="#0F1626" stroke="#5CE1FF" stroke-opacity=".6"/>
+<rect x="18" y="16" width="32" height="32" rx="7" fill="#5CE1FF"/>
+<text x="34" y="40" text-anchor="middle" class="s" font-size="20" font-weight="800" fill="#0A0F1C">in</text>
+<text x="66" y="38" class="m" font-size="16" fill="#E6EDF3">conectar no LinkedIn <tspan fill="#5CE1FF">→</tspan></text></svg>
