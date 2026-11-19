@@ -12,7 +12,7 @@
 
 <br>
 
-<img src="./assets/pipeline.svg" width="100%" alt="Trajetória: Técnico em SST (2022–2024), Atendente de caixa no Pague Menos (2024–2025), Estágio em TI na Hidro Forte (2025–2026), Estágio em QA na CRP Tecnologia (2026–agora), Engenheiro de Software pelo CEULP/ULBRA (2028)">
+<img src="./assets/pipeline.svg" width="100%" alt="Trajetória: Estágio em TI na Hidro Forte (2025–2026), Estágio em QA na CRP Tecnologia (2026–agora), Engenheiro de Software pelo CEULP/ULBRA (2028)">
 
 <br>
 
