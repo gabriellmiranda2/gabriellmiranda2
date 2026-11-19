@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="[https://www.linkedin.com/in/gabrielmirandasofi/](https://www.linkedin.com/in/gabrielmirandasoft/)"><img src="./assets/btn-linkedin.svg" height="48" alt="Conectar no LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/gabrielmirandasof/"><img src="./assets/btn-linkedin.svg" height="48" alt="Conectar no LinkedIn"></a>
 </p>
 
 <br>
